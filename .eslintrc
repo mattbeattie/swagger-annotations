@@ -1,0 +1,4 @@
+{
+  "extends": "./node_modules/eslint-config-defaults/configurations/node-runtime.js",
+  "rules": {}
+}

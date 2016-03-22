@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "swagger-annotations",
+  "title": "Swagger Annotations",
+  "description": "Utility to convert code-based annotations to Swagger documentation",
+  "version": "1.0.0-beta.1",
+  "author": "Chris Occhipinti",
+  "license": "MIT",
+  "repository": "outbrain/swagger-annotations",
+  "homepage": "https://github.com/outbrain/swagger-annotations",
+  "keywords": [
+    "swagger",
+    "annotations",
+    "documentation",
+    "json"
+  ],
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "scripts": {
+    "pretest": "eslint -c .eslintrc lib/ test/",
+    "test": "tape 'test/**/*.js'"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-defaults": "^9.0.0",
+    "express": "^4.13.4",
+    "tape": "^4.5.0"
+  },
+  "dependencies": {
+    "StringScanner": "0.0.3",
+    "lodash": "^3.10.1",
+    "resolve": "^1.1.7"
+  }
+}
