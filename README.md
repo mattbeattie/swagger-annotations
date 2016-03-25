@@ -2,6 +2,12 @@
 
 This module assumes an [Express Router](http://expressjs.com/en/api.html#router) has been used and the routes have been commented via @swaggerPath comment blocks. Additional comments, such as @swaggerTags, @swaggerDefintions, @swaggerResponses, etc., can be declared at the bottom of the JS file.
 
+# Install
+
+```
+npm install https://github.com/outbrain/swagger-annotations.git --save-dev
+```
+
 # Usage
 
 Specifying a 'dest' config option (will write a file to disk)
