@@ -3,7 +3,7 @@
   "name": "swagger-annotations",
   "title": "Swagger Annotations",
   "description": "Utility to convert code-based annotations to Swagger documentation",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "author": "Chris Occhipinti",
   "license": "MIT",
   "repository": "outbrain/swagger-annotations",
